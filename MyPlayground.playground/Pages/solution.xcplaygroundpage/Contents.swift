@@ -6,11 +6,6 @@ func frozen() {
 }
 
 frozen()
-
-
-
-
-
 //: ### Question 2
 func frozenAgain() {
     let s = "Let it go!"
@@ -18,22 +13,12 @@ func frozenAgain() {
 }
 
 frozen()
-
-
-
-
-
 //: ### Question 3
 func favoriteCharacter(character: String) {
     print("My favorite character is \(character).")
 }
 
 favoriteCharacter("Yoda")
-
-
-
-
-
 //: ### Question 4
 let myFavCharacter = "Chewbacca"
 favoriteCharacter(myFavCharacter)
@@ -52,22 +37,12 @@ func problems(numberOfProblems: Int) {
 }
 
 problems(47)
-
-
-
-
-
 //: ### Question 6
 func favoriteBand(band: String, position: Int) {
     print("My #\(position) favorite band is \(band).")
 }
 
 favoriteBand("Nickelback", position: 512)
-
-
-
-
-
 //: ### Question 7
 func badFavoriteBand(bandName: String, position: Int) {
     print("My #\(position) favorite band is \(bandName).")
